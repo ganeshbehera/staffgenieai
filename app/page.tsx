@@ -745,12 +745,12 @@ export default function StaffGenieLanding() {
                  </div>
                </div>
                <p className="text-gray-700 mb-6 max-w-md">
-                 Innovatech Retail Solutions LLC – StaffGenie AI automates smarter, optimizes faster, and grows stronger with AI-powered workforce management.
+                 Globzones Trading Private Limited – StaffGenie AI automates smarter, optimizes faster, and grows stronger with AI-powered workforce management.
                </p>
-               <div className="text-sm text-gray-600 space-y-1 mb-6">
-                 <p>Corporate Tax Registration: 104702883000001</p>
-                 <p>Business License Number: 2433141.0</p>
-               </div>
+                               <div className="text-sm text-gray-600 space-y-1 mb-6">
+                  <p>GST Number: 27AAJCG5239M1Z3</p>
+                  <p>CIN: U52399MH2022PTC374753</p>
+                </div>
              </div>
 
              <div>
@@ -771,14 +771,14 @@ export default function StaffGenieLanding() {
                  </li>
                  <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
                    <MapPin className="w-4 h-4 flex-shrink-0" />
-                   <span className="text-sm">Sharjah, United Arab Emirates</span>
+                   <span className="text-sm">New Silver Star, 502, Malwani Post Office, Malwani-5, Malad West, Mumbai 400095</span>
                  </li>
                </ul>
              </div>
            </div>
 
            <div className="border-t border-gray-600 pt-6 md:pt-8 flex flex-col md:flex-row justify-between items-center text-gray-700 text-sm">
-             <p className="mb-4 md:mb-0">© 2025 Innovatech Retail Solutions LLC. All rights reserved.</p>
+             <p className="mb-4 md:mb-0">© 2025 Globzones Trading Private Limited. All rights reserved.</p>
              <div className="flex items-center space-x-2">
                <Shield className="w-4 h-4" />
                <span>Enterprise-grade security</span>
