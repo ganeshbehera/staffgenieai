@@ -96,7 +96,7 @@ export default function StaffGenieLanding() {
           </motion.div>
           
                      <nav className="hidden md:flex items-center space-x-8">
-             <a href="#services" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Services</a>
+             <a href="#features" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Features</a>
              <a href="#process" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Process</a>
              <a href="#benefits" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Benefits</a>
            </nav>
@@ -155,7 +155,7 @@ export default function StaffGenieLanding() {
                  animate={{ opacity: 1, y: 0 }}
                  transition={{ duration: 0.8, delay: 0.3 }}
                >
-                 StaffGenie brings AI automation to your fingertips & streamline workforce management tasks.
+                 StaffGenie is the all-in-one platform that automates and streamlines your entire retail workforce management.
                </motion.p>
 
                                             <motion.div 
@@ -283,7 +283,7 @@ export default function StaffGenieLanding() {
       </section>
 
              {/* Services Section */}
-       <section id="services" className="py-16 md:py-20 px-4 md:px-6 bg-white">
+       <section id="features" className="py-16 md:py-20 px-4 md:px-6 bg-white">
          <div className="container mx-auto max-w-7xl">
            <motion.div 
              className="text-center mb-12 md:mb-16"
@@ -535,7 +535,7 @@ export default function StaffGenieLanding() {
                </div>
                              <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Setup</h3>
                <p className="text-gray-600">
-                 Sign up and connect your store data. Our platform automatically analyzes your staffing needs and patterns.
+                 Create your account and connect your POS system. The platform automatically analyzes your staffing patterns.
                </p>
             </motion.div>
 
@@ -551,7 +551,7 @@ export default function StaffGenieLanding() {
                </div>
                              <h3 className="text-xl font-bold text-gray-900 mb-4">Instant Optimization</h3>
                <p className="text-gray-600">
-                 Watch as StaffGenie creates optimized schedules and provides real-time staffing recommendations.
+                 The platform instantly generates optimized schedules and provides AI-powered staffing recommendations.
                </p>
             </motion.div>
 
@@ -744,7 +744,7 @@ export default function StaffGenieLanding() {
                  </div>
                </div>
                <p className="text-gray-700 mb-6 max-w-md">
-                 Globzones Trading Private Limited – StaffGenie AI automates smarter, optimizes faster, and grows stronger with AI-powered workforce management.
+                 Globzones Trading Private Limited – StaffGenie is the leading AI-powered workforce management platform that helps retail businesses optimize their operations.
                </p>
                                <div className="text-sm text-gray-600 space-y-1 mb-6">
                   <p>GST Number: 27AAJCG5239M1Z3</p>
@@ -755,7 +755,7 @@ export default function StaffGenieLanding() {
              <div>
                <h4 className="font-semibold mb-4 text-gray-900">Navigation</h4>
                <ul className="space-y-3 text-gray-700">
-                 <li><a href="#services" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Services</a></li>
+                 <li><a href="#features" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Features</a></li>
                  <li><a href="#process" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Process</a></li>
                  <li><a href="#benefits" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Benefits</a></li>
                </ul>
