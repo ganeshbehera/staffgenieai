@@ -293,33 +293,32 @@ export default function StaffGenieLanding() {
              viewport={{ once: true }}
            >
              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
-               AI Solutions That Will Take Your Business to the Next Level
+                              Powerful Retail Workforce Management Platform
              </h2>
              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-               We're building powerful automation tools that will help you work smarter, not harder. Join our waitlist for early access.
+               StaffGenie is an all-in-one platform that automates scheduling, optimizes staffing, and drives retail performance. Join our waitlist for early access.
              </p>
            </motion.div>
 
-                     <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16 md:mb-20">
-             {/* Workflow Automation */}
-             <motion.div
-               initial={{ opacity: 0, x: -50 }}
-               whileInView={{ opacity: 1, x: 0 }}
-               transition={{ duration: 0.8, ease: "easeOut" }}
-               viewport={{ once: true }}
-               className="order-2 lg:order-1"
-             >
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16 md:mb-20">
+            {/* Automated Scheduling */}
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: true }}
+              className="order-2 lg:order-1"
+            >
               <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-gray-900">Workflow Automation</h3>
-                                 <h4 className="text-xl font-semibold text-teal-600">Automate repetitive tasks</h4>
-                 <p className="text-gray-600 leading-relaxed">
-                   We'll help you streamline internal operations by automating manual workflows like scheduling, 
-                   reporting, and approval chains - saving time and cutting down errors.
-                 </p>
+                <h3 className="text-2xl font-bold text-gray-900">Automated Scheduling</h3>
+                                <h4 className="text-xl font-semibold text-teal-600">AI-Powered Staff Planning</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  Our advanced algorithms automatically create optimal schedules based on sales data, foot traffic, and staff availability. Real-time adjustments keep your store perfectly staffed.
+                </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Internal Task Bots</Badge>
-                  <Badge variant="secondary">100+ Automations</Badge>
-                  <Badge variant="secondary">Smart Scheduling</Badge>
+                  <Badge variant="secondary">Smart Forecasting</Badge>
+                  <Badge variant="secondary">Auto-Scheduling</Badge>
+                  <Badge variant="secondary">Real-time Updates</Badge>
                 </div>
               </div>
             </motion.div>
@@ -432,17 +431,17 @@ export default function StaffGenieLanding() {
               viewport={{ once: true }}
               className="lg:order-1"
             >
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-gray-900">AI Assistant</h3>
-                                 <h4 className="text-xl font-semibold text-teal-600">Delegate Daily Tasks</h4>
-                 <p className="text-gray-600 leading-relaxed">
-                   From managing schedules to analyzing performance and summarizing reports, our AI assistants will work 
-                   around the clock to keep your business running smarter and faster.
-                 </p>
+                            <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Dashboard</h3>
+                                <h4 className="text-xl font-semibold text-teal-600">Real-time Insights & Controls</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  Get instant visibility into your workforce metrics, sales performance, and staffing efficiency. Our smart dashboard 
+                  proactively alerts you about staffing gaps and provides actionable recommendations.
+                </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Smart Summaries</Badge>
-                  <Badge variant="secondary">Auto Scheduling</Badge>
-                  <Badge variant="secondary">Many more</Badge>
+                  <Badge variant="secondary">Live Analytics</Badge>
+                  <Badge variant="secondary">Smart Alerts</Badge>
+                  <Badge variant="secondary">Performance Metrics</Badge>
                 </div>
           </div>
             </motion.div>
@@ -516,10 +515,10 @@ export default function StaffGenieLanding() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-               Our Simple, Smart, and Scalable Process
+               Get Started in Minutes
              </h2>
              <p className="text-xl text-gray-600">
-               We're designing, developing, and will implement automation tools that help you work smarter, not harder
+               StaffGenie's intuitive platform makes it easy to transform your workforce management
             </p>
           </div>
 
@@ -534,9 +533,9 @@ export default function StaffGenieLanding() {
                              <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                  <div className="text-2xl font-bold text-teal-600">1</div>
                </div>
-                             <h3 className="text-xl font-bold text-gray-900 mb-4">Smart Analyzing</h3>
+                             <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Setup</h3>
                <p className="text-gray-600">
-                 We'll assess your retail operations and identify AI solutions to streamline workflows and improve efficiency.
+                 Sign up and connect your store data. Our platform automatically analyzes your staffing needs and patterns.
                </p>
             </motion.div>
 
@@ -550,9 +549,9 @@ export default function StaffGenieLanding() {
                              <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                  <div className="text-2xl font-bold text-teal-600">2</div>
                </div>
-                             <h3 className="text-xl font-bold text-gray-900 mb-4">AI Development</h3>
+                             <h3 className="text-xl font-bold text-gray-900 mb-4">Instant Optimization</h3>
                <p className="text-gray-600">
-                 Our team will build intelligent automation systems tailored to your retail business processes.
+                 Watch as StaffGenie creates optimized schedules and provides real-time staffing recommendations.
                </p>
             </motion.div>
 
@@ -563,12 +562,12 @@ export default function StaffGenieLanding() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <div className="text-2xl font-bold text-blue-600">3</div>
+              <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <div className="text-2xl font-bold text-teal-600">3</div>
               </div>
-                             <h3 className="text-xl font-bold text-gray-900 mb-4">Implementation</h3>
+                             <h3 className="text-xl font-bold text-gray-900 mb-4">Scale with Ease</h3>
                <p className="text-gray-600">
-                 We'll deploy and integrate the solutions seamlessly into your existing retail operations.
+                 Add more stores, customize features, and watch your efficiency grow with our flexible platform.
                </p>
             </motion.div>
           </div>
@@ -586,10 +585,10 @@ export default function StaffGenieLanding() {
              viewport={{ once: true }}
            >
              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
-               The Key Benefits You'll Get with StaffGenie AI
+               Powerful Features That Drive Results
              </h2>
              <p className="text-lg md:text-xl text-gray-600">
-               Discover how our AI automation will enhance efficiency, reduce costs, and drive business growth with smarter, faster processes.
+               Every feature in StaffGenie is designed to maximize your retail performance and staff productivity
              </p>
            </motion.div>
 
@@ -597,33 +596,33 @@ export default function StaffGenieLanding() {
             {[
               {
                 icon: TrendingUp,
-                title: "Increased Productivity",
-                description: "Gain actionable insights with AI-driven analytics to improve decision-making and strategy."
+                title: "Smart Forecasting",
+                description: "AI-powered demand prediction automatically adjusts staffing levels based on historical data and upcoming events."
               },
               {
                 icon: Users,
-                title: "Better Customer Experience",
-                description: "Optimized staffing ensures better service quality and customer satisfaction."
+                title: "Team Management",
+                description: "Centralized staff profiles, availability tracking, and automated shift swapping save hours of admin work."
               },
               {
                 icon: Clock,
-                title: "24/7 Availability",
-                description: "AI-powered systems operate around the clock, ensuring seamless operations without downtime."
+                title: "Real-time Monitoring",
+                description: "Live dashboards track attendance, performance metrics, and labor costs as they happen."
               },
               {
                 icon: DollarSign,
-                title: "Cost Reduction",
-                description: "AI automation minimizes manual work, cuts operational costs, and optimizes resource allocation."
+                title: "Budget Optimization",
+                description: "Automated scheduling within labor budget constraints while maintaining optimal coverage."
               },
               {
                 icon: BarChart3,
-                title: "Data-Driven Insights",
-                description: "Leverage AI to analyze staff performance, identify trends, and make smarter business decisions."
+                title: "Performance Analytics",
+                description: "Built-in reporting tools track KPIs, staff efficiency, and identify opportunities for improvement."
               },
               {
                 icon: Zap,
-                title: "Scalability & Growth",
-                description: "AI adapts to your business needs, allowing you to scale efficiently without increasing workload."
+                title: "Mobile Access",
+                description: "Native mobile apps keep your team connected with schedules, updates, and instant notifications."
               }
             ].map((benefit, index) => (
                              <motion.div
@@ -665,7 +664,7 @@ export default function StaffGenieLanding() {
                transition={{ duration: 0.8, delay: 0.2 }}
                viewport={{ once: true }}
              >
-               Ready to Transform Your Retail Operations?
+               Ready to Revolutionize Your Workforce Management?
              </motion.h2>
              <motion.p 
                className="text-lg md:text-xl text-gray-600 mb-8 md:mb-12 max-w-3xl mx-auto"
@@ -674,7 +673,7 @@ export default function StaffGenieLanding() {
                transition={{ duration: 0.8, delay: 0.3 }}
                viewport={{ once: true }}
              >
-               Join our waitlist to be among the first to experience AI-powered workforce management. Early adopters receive exclusive benefits and priority access.
+               Get early access to StaffGenie and receive exclusive launch pricing, premium features, and priority support. Limited spots available.
              </motion.p>
              
              <motion.div 
@@ -709,9 +708,9 @@ export default function StaffGenieLanding() {
                viewport={{ once: true }}
              >
                {[
-                 "Free Early Access",
-                 "Setup Support Included", 
-                 "No Long-term Contracts"
+                 "Priority Platform Access",
+                 "Premium Features Included", 
+                 "Dedicated Support"
                ].map((feature, index) => (
                  <motion.div 
                    key={index}
