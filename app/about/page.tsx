@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Building2, Users, Target, ArrowLeft, AlertTriangle, Clock, UserCheck, FileText, Store } from "lucide-react"
+import { Building2, Users, Target, ArrowLeft, AlertTriangle, Clock, UserCheck, FileText, Store, CheckCircle, Circle, Timer } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -159,6 +159,95 @@ export default function AboutPage() {
                         <div className="text-2xl font-bold text-teal-600">$8.2B</div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Roadmap */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="mb-16"
+          >
+            <div className="flex items-center mb-8">
+              <Timer className="w-8 h-8 text-teal-600 mr-4" />
+              <h2 className="text-3xl font-bold text-gray-900">Development Roadmap</h2>
+            </div>
+            <div className="relative">
+              {/* Timeline Line */}
+              <div className="absolute left-[21px] top-4 bottom-4 w-[2px] bg-gray-200"></div>
+              
+              {/* Timeline Items */}
+              <div className="space-y-8">
+                <div className="flex items-start">
+                  <div className="bg-teal-100 rounded-full p-2 mr-4 relative z-10">
+                    <CheckCircle className="w-5 h-5 text-teal-600" />
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <h3 className="text-lg font-semibold text-gray-900">Research & Planning</h3>
+                      <span className="ml-3 text-sm text-teal-600 bg-teal-50 px-2 py-1 rounded-full">Completed</span>
+                    </div>
+                    <p className="text-gray-600 mt-1">Market analysis, user research, and technical architecture planning</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-teal-100 rounded-full p-2 mr-4 relative z-10">
+                    <CheckCircle className="w-5 h-5 text-teal-600" />
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <h3 className="text-lg font-semibold text-gray-900">Core Development</h3>
+                      <span className="ml-3 text-sm text-teal-600 bg-teal-50 px-2 py-1 rounded-full">Completed</span>
+                    </div>
+                    <p className="text-gray-600 mt-1">Building the foundational platform and AI algorithms</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-teal-500 rounded-full p-2 mr-4 relative z-10">
+                    <Timer className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <h3 className="text-lg font-semibold text-gray-900">Development Testing</h3>
+                      <span className="ml-3 text-sm text-white bg-teal-500 px-2 py-1 rounded-full">Current Stage</span>
+                    </div>
+                    <p className="text-gray-600 mt-1">Rigorous testing and optimization with beta partners</p>
+                    <p className="text-sm text-teal-600 mt-2">Estimated Completion: Q2 2024</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-gray-100 rounded-full p-2 mr-4 relative z-10">
+                    <Circle className="w-5 h-5 text-gray-400" />
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <h3 className="text-lg font-semibold text-gray-900">Market Launch</h3>
+                      <span className="ml-3 text-sm text-gray-600 bg-gray-100 px-2 py-1 rounded-full">Upcoming</span>
+                    </div>
+                    <p className="text-gray-600 mt-1">Official product launch and market rollout</p>
+                    <p className="text-sm text-gray-500 mt-2">Estimated: Q3 2024</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-gray-100 rounded-full p-2 mr-4 relative z-10">
+                    <Circle className="w-5 h-5 text-gray-400" />
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <h3 className="text-lg font-semibold text-gray-900">Global Expansion</h3>
+                      <span className="ml-3 text-sm text-gray-600 bg-gray-100 px-2 py-1 rounded-full">Planned</span>
+                    </div>
+                    <p className="text-gray-600 mt-1">International market expansion and enterprise features</p>
+                    <p className="text-sm text-gray-500 mt-2">Target: Q2 2026</p>
                   </div>
                 </div>
               </div>
