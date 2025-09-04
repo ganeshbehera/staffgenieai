@@ -96,6 +96,14 @@ export default function StaffGenieLanding() {
           </motion.div>
           
                      <nav className="hidden md:flex items-center space-x-8">
+             <a 
+               href="/StaffGenie_AI_Revolutionizing_Retail_Workforce_Management.pdf" 
+               target="_blank"
+               className="text-teal-600 hover:text-teal-700 transition-all duration-300 hover:scale-105 flex items-center"
+             >
+               <FileText className="w-4 h-4 mr-1" />
+               Download PDF
+             </a>
              <a href="#features" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Features</a>
              <a href="#process" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Process</a>
              <a href="#benefits" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Benefits</a>
