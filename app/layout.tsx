@@ -11,6 +11,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'StaffGenie AI - AI-Powered Workforce Management',
   description: 'Transform your retail operations with intelligent staffing, real-time adjustments, and AI-powered workforce management.',
+  other: {
+    'yandex-verification': '352171f34309e2bb',
+  },
 }
 
 export default function RootLayout({
