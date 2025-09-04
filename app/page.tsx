@@ -37,6 +37,7 @@ import {
   Check,
 } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { useRef } from "react"
 
 export default function StaffGenieLanding() {
@@ -104,6 +105,7 @@ export default function StaffGenieLanding() {
                <FileText className="w-4 h-4 mr-1" />
                Download PDF
              </a>
+             <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">About</Link>
              <a href="#features" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Features</a>
              <a href="#process" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Process</a>
              <a href="#benefits" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Benefits</a>
@@ -763,6 +765,7 @@ export default function StaffGenieLanding() {
              <div>
                <h4 className="font-semibold mb-4 text-gray-900">Navigation</h4>
                <ul className="space-y-3 text-gray-700">
+                 <li><Link href="/about" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">About</Link></li>
                  <li><a href="#features" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Features</a></li>
                  <li><a href="#process" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Process</a></li>
                  <li><a href="#benefits" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Benefits</a></li>
