@@ -97,32 +97,45 @@ export default function StaffGenieLanding() {
           </motion.div>
           
                      <nav className="hidden md:flex items-center space-x-8">
-             <a 
-               href="/StaffGenie_AI_Revolutionizing_Retail_Workforce_Management.pdf" 
-               target="_blank"
-               className="text-teal-600 hover:text-teal-700 transition-all duration-300 hover:scale-105 flex items-center"
-             >
-               <FileText className="w-4 h-4 mr-1" />
-               Download PDF
-             </a>
              <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">About</Link>
              <a href="#features" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Features</a>
              <a href="#process" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Process</a>
              <a href="#benefits" className="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Benefits</a>
            </nav>
           
-                    <motion.div 
-            whileHover={{ scale: 1.05 }} 
-            whileTap={{ scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          >
-            <Button
-              onClick={() => setIsWaitlistModalOpen(true)}
-              className="bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white font-medium px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+                    <div className="flex items-center space-x-4">
+            <motion.div 
+              whileHover={{ scale: 1.05 }} 
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              Join Waitlist
-            </Button>
-          </motion.div>
+              <a
+                href="/StaffGenie_AI_Revolutionizing_Retail_Workforce_Management.pdf"
+                target="_blank"
+                className="inline-block"
+              >
+                <Button
+                  variant="outline"
+                  className="border-teal-500 text-teal-600 hover:bg-teal-50 font-medium px-6 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
+                >
+                  <FileText className="w-4 h-4 mr-2" />
+                  Download Deck
+                </Button>
+              </a>
+            </motion.div>
+            <motion.div 
+              whileHover={{ scale: 1.05 }} 
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Button
+                onClick={() => setIsWaitlistModalOpen(true)}
+                className="bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white font-medium px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                Join Waitlist
+              </Button>
+            </motion.div>
+          </div>
         </div>
       </motion.header>
 
@@ -782,6 +795,16 @@ export default function StaffGenieLanding() {
                  <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
                    <MapPin className="w-4 h-4 flex-shrink-0" />
                    <span className="text-sm">New Silver Star, 502, Malwani Post Office, Malwani-5, Malad West, Mumbai 400095</span>
+                 </li>
+                 <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
+                   <FileText className="w-4 h-4 flex-shrink-0" />
+                   <a 
+                     href="/StaffGenie_AI_Revolutionizing_Retail_Workforce_Management.pdf" 
+                     target="_blank"
+                     className="text-sm hover:text-teal-600"
+                   >
+                     Download our Deck
+                   </a>
                  </li>
                </ul>
              </div>
