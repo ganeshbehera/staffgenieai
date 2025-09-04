@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Building2, Users, Target, ArrowLeft, AlertTriangle, Clock, UserCheck, FileText, Store, CheckCircle, Circle, Timer } from "lucide-react"
+import { Building2, Users, Target, ArrowLeft, AlertTriangle, Clock, UserCheck, FileText, Store, CheckCircle, Circle, Timer, Mail, MapPin, Shield } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -345,6 +345,76 @@ export default function AboutPage() {
 
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-12 md:py-16 px-4 md:px-6 text-gray-900" style={{ backgroundColor: 'rgb(215, 224, 226)' }}>
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div className="md:col-span-2">
+              <div className="flex items-center mb-6">
+                <div className="h-16 flex items-center justify-center">
+                  <Image 
+                    src="/staffgenie_logo.png" 
+                    alt="StaffGenie AI Logo" 
+                    width={64} 
+                    height={64}
+                    className="h-16 w-auto"
+                  />
+                </div>
+              </div>
+              <p className="text-gray-700 mb-6 max-w-md">
+                Globzones Trading Private Limited – StaffGenie is the leading AI-powered workforce management platform that helps retail businesses optimize their operations.
+              </p>
+              <div className="text-sm text-gray-600 space-y-1 mb-6">
+                <p>GST Number: 27AAJCG5239M1Z3</p>
+                <p>CIN: U52399MH2022PTC374753</p>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4 text-gray-900">Navigation</h4>
+              <ul className="space-y-3 text-gray-700">
+                <li><a href="#features" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Features</a></li>
+                <li><a href="#process" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Process</a></li>
+                <li><a href="#benefits" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">Benefits</a></li>
+                <li><Link href="/about" className="hover:text-gray-900 transition-all duration-300 hover:translate-x-1">About</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4 text-gray-900">Contact</h4>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
+                  <Mail className="w-4 h-4 flex-shrink-0" />
+                  <span className="text-sm">hello@staffgenieai.com</span>
+                </li>
+                <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
+                  <MapPin className="w-4 h-4 flex-shrink-0" />
+                  <span className="text-sm">New Silver Star, 502, Malwani Post Office, Malwani-5, Malad West, Mumbai 400095</span>
+                </li>
+                <li className="flex items-center space-x-2 hover:text-gray-900 transition-colors">
+                  <FileText className="w-4 h-4 flex-shrink-0" />
+                  <a 
+                    href="/StaffGenie_AI_Revolutionizing_Retail_Workforce_Management.pdf" 
+                    target="_blank"
+                    className="text-sm hover:text-teal-600"
+                  >
+                    Download our Deck
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-600 pt-6 md:pt-8 flex flex-col md:flex-row justify-between items-center text-gray-700 text-sm">
+            <p className="mb-4 md:mb-0">© 2025 Globzones Trading Private Limited. All rights reserved.</p>
+            <div className="flex items-center space-x-2">
+              <Shield className="w-4 h-4" />
+              <span>Enterprise-grade security</span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
