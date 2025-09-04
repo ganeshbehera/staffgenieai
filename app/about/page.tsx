@@ -219,7 +219,7 @@ export default function AboutPage() {
                       <span className="ml-3 text-sm text-white bg-teal-500 px-2 py-1 rounded-full">Current Stage</span>
                     </div>
                     <p className="text-gray-600 mt-1">Rigorous testing and optimization with beta partners</p>
-                    <p className="text-sm text-teal-600 mt-2">Estimated Completion: Q2 2024</p>
+                    <p className="text-sm text-teal-600 mt-2">Estimated Completion: Q4 2025</p>
                   </div>
                 </div>
 
@@ -233,7 +233,7 @@ export default function AboutPage() {
                       <span className="ml-3 text-sm text-gray-600 bg-gray-100 px-2 py-1 rounded-full">Upcoming</span>
                     </div>
                     <p className="text-gray-600 mt-1">Official product launch and market rollout</p>
-                    <p className="text-sm text-gray-500 mt-2">Estimated: Q3 2024</p>
+                    <p className="text-sm text-gray-500 mt-2">Estimated: Q1 2026</p>
                   </div>
                 </div>
 
